@@ -1057,6 +1057,8 @@ body{
   }
 }
 
+/* Hamburger Menu */
+
 .hamburger{
   cursor: pointer;
   width: 24px;
@@ -1079,7 +1081,7 @@ body{
 }
 
 .hamburger-middle{
-  transform: translateY(7px);
+  transform: translateY(7x);
 }
 
 .hamburger-bottom{
@@ -1091,15 +1093,15 @@ body{
   transform: translateY(0px);
 }
 
-.open.hamburger-top{
+.open .hamburger-top{
   transform: rotate(45deg) translateY(6px) translate(6px);
 }
 
-.open.hamburger-middle{
+.open .hamburger-middle{
   display: none;
 }
 
-.open.hamburger-bottom{
+.open .hamburger-top{
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
